@@ -15,6 +15,13 @@
     left:0;
 }
 
+.busqueda{
+    position:absolute;
+    bottom:0;
+    right:0;
+    margin: 5px;
+}
+
 .fotoinicial img {
     position: relative;
     float:left;
@@ -35,9 +42,52 @@
     color: white;
 }
 
-.busqueda{
-  position:absolute;
-  bottom:0;
-  right:0;
-  margin: 5px;
+.menu{
+    width: 100%;
+    height: 50px;
+    background: rgba(182, 0, 0, 0.78);
+}
+
+.navegador{
+    list-style: none;
+}
+
+.opcion{
+    position: relative;
+    display: inline-block;
+    width: 14%;
+    height: 50px;
+    float: left;
+}
+
+.opcion a{
+    display: block;
+    width: 100%;
+    height: inherit;
+    font-size: 1.2em;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+    color: #FFF;
+}
+
+.opcion a:hover{
+    background-color: #333;
+}
+
+.opciones{
+    position: absolute;
+    display: none;
+    width: 100%;
+    background: rgba(182, 0, 0, 0.78);
+    float: inherit;
+}
+
+.opciones li{
+    display: block;
+    width: 100%;
+}
+
+.opcion:hover .opciones{
+    display: block;
 }
