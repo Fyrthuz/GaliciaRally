@@ -1,3 +1,7 @@
+body{
+    background-color: rgba(231, 218, 218, 0.78);
+}
+
 .portada{
     position: relative;
     top:0;
@@ -5,14 +9,17 @@
     width:100%;
     height:250px;
     color: white;
-    background-color: rgba(255, 0, 0, 0.78);
+    background-color: rgba(182, 0, 0, 0.78);
     position: relative;
+    flex-wrap: wrap;
 }
 
 .fotoinicial{
-    position: relative;
+    position: absolute;
     top:0;
     left:0;
+    flex-wrap: wrap;
+    width: 40%;
 }
 
 .busqueda{
@@ -27,10 +34,11 @@
     float:left;
     top:0;
     left:0;
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 70%;
     width:500px;
     height:250px;
+    flex-wrap: wrap;
+    
 }
 
 .titulo{
@@ -38,7 +46,7 @@
     float:right;
     text-align: center;
     top:30%;
-    right:25%;
+    right:35%;
     color: white;
 }
 
@@ -69,25 +77,132 @@
     text-decoration: none;
     line-height: 50px;
     color: #FFF;
+    white-space: nowrap;
+    flex-wrap: wrap;
+    overflow: hidden;
 }
 
 .opcion a:hover{
     background-color: #333;
 }
 
-.opciones{
+.opcion .submenu{
     position: absolute;
     display: none;
-    width: 100%;
-    background: rgba(182, 0, 0, 0.78);
+    width:max-content+0.5;
+    padding-right: 10px;
+    background-color: rgba(182, 0, 0, 0.78);
     float: inherit;
+    text-align: center;
 }
 
-.opciones li{
+.opcion .submenu .opciones li{
     display: block;
+    text-align: center;
     width: 100%;
 }
 
-.opcion:hover .opciones{
+nav .navegador .opcion:hover .submenu{
     display: block;
+    text-align: center;
+    z-index: 1;
+}
+
+.contenedor{
+    
+    list-style-type: none;
+}
+
+.subcontenedor{
+    display: inline-block;
+    column-count: 2;
+    height: 100%;
+}
+
+.noticia{
+    margin: 15px;
+    background-color: lightgrey;
+    float: left;
+    padding: 0px;
+    border-style:groove;
+}
+.noticia h2{
+    text-align: center;
+}
+
+.noticia a img{
+    position: relative;
+    max-width: 40%;
+    max-height: 192px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.noticia p{
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 13em;
+    line-height: 1.8em;
+    position: relative;
+}
+
+.noticia2{
+    margin: 10px;
+    background-color: lightgrey;
+    float: left;
+    padding: 0px;
+    border-style:groove;
+}
+
+
+.noticia2 h2{
+    text-align: center;
+}
+
+.noticia2 a img{
+    position: relative;
+    max-width: 40%;
+    max-height: 192px;
+    float:left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.noticia2 p{
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 13em;
+    line-height: 1.8em;
+    position: relative;
+}
+
+
+.pie{
+    background-color: rgba(182, 0, 0, 0.78);
+}
+
+.pie a{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    display: block;
+    width: 100%;
+    height: inherit;
+    font-size: 1.2em;
+    text-decoration: solid;
+    line-height: 50px;
+    color: #FFF;
+}
+
+.masinfo{
+    font-family: Arial, Helvetica, sans-serif;
+    width:fit-content;
+    display: block;
+    text-decoration: solid;
+    color: rgba(182, 0, 0, 0.78);
+    
 }
