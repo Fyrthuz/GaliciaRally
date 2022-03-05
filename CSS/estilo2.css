@@ -115,32 +115,41 @@ nav .navegador .opcion:hover .submenu{
 
 .subcontenedor{
     display: inline-block;
-    column-count: 2;
+    column-count: 1;
     height: 100%;
 }
 
-.noticia{
+.info{
     margin: 15px;
     background-color: lightgrey;
     float: left;
     padding: 0px;
     border-style:groove;
 }
-.noticia h2{
+.info h2{
+    font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
 
-.noticia a img{
-    position: relative;
-    max-width: 40%;
-    max-height: 192px;
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 10px;
-    margin-left: 5px;
+.info h1{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: rgb(225, 0, 0);
 }
 
-.noticia p{
+.info a {
+    position: relative;
+    text-decoration: none;
+    color: rgb(225, 0, 0);
+}
+
+.info a:hover {
+    text-decoration: underline;
+}
+
+.info p{
+    margin-right: 25px;
+    margin-left: 25px;
     text-overflow: ellipsis;
     word-wrap: break-word;
     overflow: hidden;
@@ -149,36 +158,14 @@ nav .navegador .opcion:hover .submenu{
     position: relative;
 }
 
-.noticia2{
-    margin: 10px;
-    background-color: lightgrey;
-    float: left;
-    padding: 0px;
-    border-style:groove;
-}
-
-
-.noticia2 h2{
-    text-align: center;
-}
-
-.noticia2 a img{
+.info img{
     position: relative;
     max-width: 40%;
     max-height: 192px;
-    float:left;
-    margin-right: 10px;
+    float: left;
+    margin-right: 20px;
     margin-bottom: 10px;
-    margin-left: 5px;
-}
-
-.noticia2 p{
-    text-overflow: ellipsis;
-    word-wrap: break-word;
-    overflow: hidden;
-    max-height: 13em;
-    line-height: 1.8em;
-    position: relative;
+    margin-left: 15px;
 }
 
 
