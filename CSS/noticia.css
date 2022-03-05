@@ -55,10 +55,16 @@ img{
     color:rgba(182, 0, 0, 0.78);
     position: relative;
     text-decoration: none;
-    margin-bottom: 5px;
+    margin-left: 5px;
 
 }
 
 .piloto:hover{
     text-decoration: underline;
+}
+
+
+.letrapiloto{
+    font-size: large;
+    margin-left: 10px;
 }
