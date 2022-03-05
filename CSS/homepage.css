@@ -31,7 +31,7 @@ body{
 
 .fotoinicial img {
     position: relative;
-    float:left;
+    float: left;
     top:0;
     left:0;
     max-width: 70%;
@@ -41,9 +41,9 @@ body{
     
 }
 
-.titulo{
+.titulo {
     position: relative;
-    float:right;
+    float: right;
     text-align: center;
     top:30%;
     right:35%;
@@ -204,5 +204,17 @@ nav .navegador .opcion:hover .submenu{
     display: block;
     text-decoration: solid;
     color: rgba(182, 0, 0, 0.78);
-    
 }
+
+.opciones{
+    position: absolute;
+    display: none; /* Cambiar sólo este valor */
+    width: 100%/7;
+    background: red;
+    float:inherit;
+}
+
+nav ul li:hover .opciones{
+    display: inline-table;
+}
+
