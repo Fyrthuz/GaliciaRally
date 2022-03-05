@@ -1,0 +1,64 @@
+.cuerpo{
+    background-color: lightgrey;
+    float: left;
+    padding: 0px;
+    border-style:groove;
+}
+
+.titular{
+    text-align: center;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+    width: fit-content;
+}
+
+.foto{
+    float: left;
+    margin: 10px;
+    margin-right: 12px;
+    width:300px;
+    height:128px;
+}
+
+
+.descripcion{
+    margin: 12px;
+}
+
+.historico{
+    font-size: x-large;
+    margin: 10px;
+}
+
+.campeones{
+    margin:10px;
+}
+
+.ultimos{
+    font-size: larger;
+    margin-left: 10px;
+}
+
+.lista{
+    display: block;
+    list-style-type:square;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+    list-style-position: inside;
+
+}
+
+.piloto{
+    color:rgba(182, 0, 0, 0.78);
+    position: relative;
+    text-decoration: none;
+    margin-bottom: 5px;
+
+}
+
+.piloto:hover{
+    text-decoration: underline;
+}
