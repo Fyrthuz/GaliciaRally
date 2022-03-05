@@ -14,6 +14,7 @@ body{
     flex-wrap: wrap;
 }
 
+
 .fotoinicial{
     position: absolute;
     top:0;
@@ -38,7 +39,6 @@ body{
     width:500px;
     height:250px;
     flex-wrap: wrap;
-
 }
 
 .titulo {
@@ -140,19 +140,23 @@ nav .navegador .opcion:hover .submenu{
     color: rgb(225, 0, 0);
 }
 
-.info a {
-    position: relative;
-    text-decoration: none;
-    color: rgb(225, 0, 0);
+.info a img{
+  position: relative;
+  max-width: 40%;
+  max-height: 192px;
+  float: right;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  margin-left: 5px;
+  border-radius: 50%;
 }
 
 .info a:hover {
     text-decoration: underline;
 }
 
-.info text{
-    margin-right: 25px;
-    margin-left: 25px;
+.info .text{
+    margin-left: 15px;
     text-overflow: ellipsis;
     word-wrap: break-word;
     overflow: hidden;
