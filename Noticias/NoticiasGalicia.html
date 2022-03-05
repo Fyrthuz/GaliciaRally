@@ -2,107 +2,118 @@
 <meta charset="utf-8">
 <html lang="es">
     <head>
-        <title>NOTICIAS GALICIA</title>
+        <title>GALICIA RACING</title>
+        <link rel="stylesheet" href="../CSS/homepage.css">
     </head>
     <body>
         <h1 class="portada">
-            <p>NOTICIAS GALICIA</p>
-            <a href="../HomePage.html"><img src="../PortadaHomePage.jpg" alt="PaginaPrincipla" width="1500" height="240"></a>
+            <div class="fotoinicial"><a href="../HomePage.html"><img src="../PortadaHomePage.jpg" alt="PaginaPrincipla"></a></div>
+            <div class="titulo"><p>GALICIA RACING</p></div>
+            <div class="busqueda"><form action="Hayquemirar">
+                <label for="search">Busqueda:</label>
+                <input type="search" id="search" name="search">
+                <input type="submit" value="Buscar">
+            </form></div>
         </h1>
         <nav class="menu">
-            <ul>
-                <li class="Noticias"><a href="../Noticias/Noticias.html">Noticias</a>
-                    <body>
-                        <ul>
+            <ul class="navegador">
+                <li class="opcion"><a href="../Noticias/Noticias.html">Noticias</a>
+                    <div class="submenu">
+                        <ul class="opciones">
                             <li><a href="../Noticias/NoticiasGalicia.html">Noticias Galicia</a></li>
                             <li><a href="../Noticias/NoticiasNacionales.html">Noticias nacionales</a></li>
                             <li><a href="../Noticias/NoticiasInternacionales.html">Noticias internacionales</a></li>
                         </ul>
-                    </body>
+                    </div>
                 </li>
-                <li class="Competiciones">Competiciones
-                    <body>
-                        <ul>
+                <li class="opcion"><a>Competiciones</a>
+                    <div class="submenu">
+                        <ul class="opciones">
                             <li><a href="../Competiciones/CompeticionesGallegas.html">Informacion Competiciones Gallegas</a></li>
                             <li><a href="../Competiciones/CompeticionesNacionales.html">Informacion Competiciones Nacionales</a></li>
                             <li><a href="../Competiciones/CompeticionesInternacionales.html">Informacion Competiciones Internacionales</a></li>
                         </ul>
-                    </body>
+                    </div>
 
                 </li>
-                <li class="Tramos"><a href="../Tramos/Tramos.html">Tramos</a>
-                    <body>
-                        <ul>
+                <li class="opcion"><a href="../Tramos/Tramos.html">Tramos</a>
+                    <div class="submenu">
+                        <ul class="opciones">
                             <li><a href="../Tramos/TramosGalicia.html">Tramos Galicia</a></li>
                             <li><a href="../Tramos/TramosEspaña.html">Tramos España</a></li>
                             <li><a href="../Tramos/TramosInternacional.html">Tramos internacional</a></li>
                         </ul>
-                    </body>
+                    </div>
                 </li>
-                <li class="Automoviles"><a href="../Automoviles/AutomovilesGeneral.html">Automóviles</a></li>
-                <li class="Escuderias"><a href="../Escuderias/Escuderias.html">Escuderías</a>
+                <li class="opcion"><a href="../Automoviles/AutomovilesGeneral.html">Automóviles</a></li>
+                <li class="opcion"><a href="../Escuderias/Escuderias.html">Escuderías</a>
                 </li>
-                <li class="Historico">Histórico</a>
-                    <body>
-                        <ul>
+                <li class="opcion"><a>Histórico</a>
+                    <div class="submenu">
+                        <ul class="opciones">
                             <li><a href="../Historico/UltimosResultados.html">Últimos resultados</a></li>
                             <li><a href="../Historico/PalmaresCompeticiones.html">Palmares competiciones</a></li>
                             <li><a href="../Historico/PalmaresEscuderias.html">Palmares escuderías</a></li>
                             <li><a href="../Historico/PalmaresPiloto.html">Palmares pilotos</a></li>
                         </ul>
-                    </body>
+                    </div>
                 </li>
-                <li class="Contacto y Politica de privacidad"><a href="../Contacto/Contacto.html">Contacto y Politica de privacidad</a></li>
+                <li class="opcion"><a href="../Contacto/Contacto.html">Contacto y Politica de privacidad</a></li>
             </ul>
         </nav>
-        <form action="Hayquemirar">
-            <label for="search">Busqueda:</label>
-            <input type="search" id="search" name="search">
-            <input type="submit" value="Buscar">
-        </form>
-        <section>
-            <article>
-                <h2>NOTICIA1</h2>
-                <a href="../Noticias/Noticia.html"><img src="../Noticias/imagen_noticia11.jpeg" alt="Noticia"></a>
-                <p>CUERPO NOTICIA1</p>
-            </article>
-            <article>
-                <h2>NOTICIA2</h2>
-                <a href="../Noticias/Noticia.html"><img src="../Noticias/imagen_noticia1.jpeg" alt="Noticia"></a>
-                <p>CUERPO NOTICIA2</p>
-            </article>
-            <article>
-                <h2>NOTICIA3</h2>
-                <a href="../Noticias/Noticia.html"><img src="../Noticias/imagen_noticia12.jpeg" alt="Noticia"></a>
-                <p>CUERPO NOTICIA3</p>
-            </article>
-            <article>
-                <h2>NOTICIA4</h2>
-                <a href="../Noticias/Noticia.html"><img src="../Noticias/imagen_noticia13.jpeg" alt="Noticia"></a>
-                <p>CUERPO NOTICIA4</p>
-            </article>
-            <article>
-                <h2>NOTICIA5</h2>
-                <a href="../Noticias/Noticia.html"><img src="../Noticias/imagen_noticia14.jpeg" alt="Noticia"></a>
-                <p>CUERPO NOTICIA5</p>
-            </article>
-            <article>
-                <h2>NOTICIA6</h2>
-                <a href="../Noticias/Noticia.html"><img src="../Noticias/imagen_noticia15.jpeg" alt="Noticia"></a>
-                <p>CUERPO NOTICIA6</p>
-            </article>
-            <article>
-                <h2>NOTICIA7</h2>
-                <a href="../Noticias/Noticia.html"><img src="../Noticias/imagen_noticia16.jpeg" alt="Noticia"></a>
-                <p>CUERPO NOTICIA7</p>
-            </article>
-            <article>
-                <h2>NOTICIA8</h2>
-                <a href="../Noticias/Noticia.html"><img src="../Noticias/imagen_noticia17.jpeg" alt="Noticia"></a>
-                <p>CUERPO NOTICIA8</p>
-            </article>
+        <section class="contenedor">
+            <div class="subcontenedor">
+                <article class="noticia">
+                    <h2>NOTICIA1</h2>
+                    <a href="../Noticias/Noticia.html" class="fotonoticia"><img src="../Noticias/imagen_noticia11.jpeg" alt="Noticia"></a>
+                    <p class="sinopsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </article>
+                <article class="noticia2">
+                    <h2>NOTICIA2</h2>
+                    <a href="../Noticias/Noticia.html"><img src="../Noticias/imagen_noticia1.jpeg" alt="Noticia"></a>
+                    <p class="sinopsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </article>
+            </div>
+            <div class="subcontenedor">
+                <article class="noticia">
+                    <h2>NOTICIA3</h2>
+                    <a href="../Noticias/Noticia.html"><img src="../Noticias/imagen_noticia12.jpeg" alt="Noticia"></a>
+                    <p class="sinopsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </article>
+                <article class="noticia2">
+                    <h2>NOTICIA4</h2>
+                    <a href="../Noticias/Noticia.html"><img src="../Noticias/imagen_noticia13.jpeg" alt="Noticia"></a>
+                    <p class="sinopsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </article>
+            </div>
+            <div class="subcontenedor">
+                <article class="noticia">
+                    <h2>NOTICIA1</h2>
+                    <a href="../Noticias/Noticia.html" class="fotonoticia"><img src="../Noticias/imagen_noticia14.jpeg" alt="Noticia"></a>
+                    <p class="sinopsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </article>
+                <article class="noticia2">
+                    <h2>NOTICIA2</h2>
+                    <a href="../Noticias/Noticia.html"><img src="../Noticias/imagen_noticia15.jpeg" alt="Noticia"></a>
+                    <p class="sinopsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </article>
+            </div>
+            <div class="subcontenedor">
+                <article class="noticia">
+                    <h2>NOTICIA3</h2>
+                    <a href="../Noticias/Noticia.html"><img src="../Noticias/imagen_noticia16.jpeg" alt="Noticia"></a>
+                    <p class="sinopsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </article>
+                <article class="noticia2">
+                    <h2>NOTICIA4</h2>
+                    <a href="../Noticias/Noticia.html"><img src="../Noticias/imagen_noticia17.jpeg" alt="Noticia"></a>
+                    <p class="sinopsis">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+                </article>
+            </div>
         </section>
-        <a href="./NoticiasGalicia.html">Ver noticias anteriores</a>
+        
+        <a class="masinfo" href="./NoticiasGalicia.html">Ver más noticias</a>
     </body>
-    <footer><a href="../Contacto/Contacto.html ">Contacto</a></footer>
+    <footer class="pie"><a href="../Contacto/Contacto.html ">Contacto</a></footer>
 </html>
+
