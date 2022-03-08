@@ -78,10 +78,12 @@ body{
     background: rgba(182, 0, 0, 0.78);
     margin: 0px;
     border:0px;
+    display:block;
 }
 
 .navegador{
     list-style: none;
+    display: flex;
 }
 
 .opcion{
@@ -140,11 +142,32 @@ nav .navegador .opcion:hover .submenu{
     list-style-type: none;
 }
 
+
 .subcontenedor{
-    display: inline-block;
-    column-count: 2;
-    height: 100%;
+    display: inline-block;;
 }
+
+@media(min-width: 600px){
+    .subcontenedor{
+        display: inline-block;
+        column-count: 2;
+        height: 100%;
+    }
+
+    .busqueda label{
+        font-size: medium;
+    }
+
+    .search{
+        width: 50px;
+        height: 15px;
+    }
+
+    .navegador{
+        
+    }
+}
+
 
 .noticia{
     margin: 15px;
