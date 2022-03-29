@@ -1,7 +1,8 @@
 <!DOCTYPE html>
-<meta charset="utf-8">
 <html lang="es">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width", initial-scale="1.0">
     <title>GALICIA RACING</title>
     <link rel="stylesheet" href="../CSS/estilo3.css">
 </head>
@@ -11,7 +12,6 @@
         <div class="fotoinicial"><a href="../HomePage.html"><img id="imgportada" src="../PortadaHomePage.jpg" alt="PaginaPrincipla"></a></div>
         <div class="titulo"><p>GALICIA RACING</p></div>
         <div class="busqueda"><form action="Hayquemirar">
-            <label for="search">Busqueda:</label>
             <input type="search" id="search" name="search">
             <input type="submit" value="Buscar">
         </form></div>
@@ -65,20 +65,25 @@
   <section class="contenedor">
     <div class="subcontenedor">
     <article class="info">
-      <h2>Redes Sociales</h2>
-      <a href="https://twitter.com/"><img src="../twitter.jpg" alt="Instagram" width="150" height="150"></a>
-      <a href="https://www.reddit.com/"><img src="../Reddit-símbolo.png" alt="Reddit" width="150" height="150"></a>
-      <a href="https://www.instagram.com/"><img src="../instagram.jpg" alt="Twitter" width="150" height="150"></a>
-      <a href="https://www.google.es/maps/"><img src="../maps.png" alt="Maps" width="150" height="150"></a>
-      <p class="text"><b>Correo electronico:</b>galiciarally@gmail.com
+      <h2>Redes Sociales</h2><a class="texto"><p class="text"><b>Correo electronico:</b>galiciarally@gmail.com
         <br><b>Número de contacto:</b>986111111
         <br><b>Direccion:</b>Calle Ave del Paraíso, Nº7,Lalin,Galicia,España,CP:36500<br>
-    </p>
+      </p>
+      </a>
+      <a href="https://twitter.com/"><img src="../twitter.jpg" alt="Instagram"></a>
+      <a href="https://www.reddit.com/"><img src="../Reddit-símbolo.png" alt="Reddit"></a>
+      <a href="https://www.instagram.com/"><img src="../instagram.jpg" alt="Twitter"></a>
+      <a class="item" href="https://www.google.es/maps/"><img src="../maps.png" alt="Maps" ></a>
+      <a class="map"><iframe id="map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d1562.5511836545236!2d-8.113198607559974!3d42.657637501818904!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd2fc74a71366f4f%3A0x58c68bcbb8100ada!2zWGFuZMO6!5e0!3m2!1ses!2ses!4v1647107064743!5m2!1ses!2ses"style="border:0;" allowfullscreen="" loading="lazy"></iframe></a>
+      
   </article>
-</div>
-<article class="info">
+  
+    </div>
+    <div class="subcontenedor2">
+    <article class="info">
       <h2>Politica de Privacidad</h2>
-      <p class="text">El presente Política de Privacidad establece los términos en que  usa y protege la información que es proporcionada por sus usuarios al momento de utilizar su sitio web. Esta compañía está comprometida con la seguridad de los datos de sus usuarios. Cuando le pedimos llenar los campos de información personal con la cual usted pueda ser identificado, lo hacemos asegurando que sólo se empleará de acuerdo con los términos de este documento. Sin embargo esta Política de Privacidad puede cambiar con el tiempo o ser actualizada por lo que le recomendamos y enfatizamos revisar continuamente esta página para asegurarse que está de acuerdo con dichos cambios.
+      <p class="text">
+        El presente Política de Privacidad establece los términos en que  usa y protege la información que es proporcionada por sus usuarios al momento de utilizar su sitio web. Esta compañía está comprometida con la seguridad de los datos de sus usuarios. Cuando le pedimos llenar los campos de información personal con la cual usted pueda ser identificado, lo hacemos asegurando que sólo se empleará de acuerdo con los términos de este documento. Sin embargo esta Política de Privacidad puede cambiar con el tiempo o ser actualizada por lo que le recomendamos y enfatizamos revisar continuamente esta página para asegurarse que está de acuerdo con dichos cambios.
         <br><br>
         <b>Información que es recogida</b>
         <br>
@@ -109,9 +114,11 @@
          Se reserva el derecho de cambiar los términos de la presente Política de Privacidad en cualquier momento.
          <br><br>
         </p>
-      </article>
+    </article>
+</div>
     </section>
     <script src="../JavaScript/cambiarFotosSubpaginas.js"></script>
     <footer class="pie"><a href="../Contacto/Contacto.html ">Contacto</a></footer>
+    <script src="../JavaScript/map.js"></script>
 </body>
 </html>
