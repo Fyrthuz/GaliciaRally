@@ -5,9 +5,10 @@
         <title>GALICIA RACING</title>
         <link rel="stylesheet" href="../CSS/estilo2.css">
     </head>
+    <script src="../jquery-3.6.0.min.js"></script>
     <body>
         <h1 class="portada">
-            <div class="fotoinicial"><a href="../HomePage.html"><img src="../PortadaHomePage.jpg" alt="PaginaPrincipla"></a></div>
+            <div class="fotoinicial"><a href="../HomePage.html"><img id="imgportada" src="../PortadaHomePage.jpg" alt="PaginaPrincipal"></a></div>
             <div class="titulo"><p>GALICIA RACING</p></div>
             <div class="busqueda"><form action="Hayquemirar">
                 <label for="search">Busqueda:</label>
@@ -66,15 +67,7 @@
               <li>
                 <h3>Resultado1</h3>
                     <body>
-                      <table>
-                        <tr>
-                          <td>Posición</td>
-                          <td>Nombre</td>
-                        </tr>
-                        <tr>
-                          <td>Posición</td>
-                          <td>Nombre</td>
-                        </tr>
+                      <table id="tabla1" style="width:75%">
                       </table>
                         <ul>
                             <li><a class="enlUR" href="../Competiciones/Competicion.html"><h4>Info. Competicion</h4></a></li>
@@ -85,15 +78,7 @@
                 <li>
                     <h3>Resultado2</h3>
                     <body>
-                      <table>
-                        <tr>
-                          <td>Posición</td>
-                          <td>Nombre</td>
-                        </tr>
-                        <tr>
-                          <td>Posición</td>
-                          <td>Nombre</td>
-                        </tr>
+                      <table id="tabla2" style="width:75%">
                       </table>
                         <ul>
                             <li><a class="enlUR" href="../Competiciones/Competicion.html"><h4>Info. Competicion</a></li>
@@ -104,15 +89,8 @@
                 <li>
                     <h3>Resultado3</h3>
                     <body>
-                      <table>
-                        <tr>
-                          <td>Posición</td>
-                          <td>Nombre</td>
-                        </tr>
-                        <tr>
-                          <td>Posición</td>
-                          <td>Nombre</td>
-                        </tr>
+                      <table id="tabla3" style="width:75%">
+
                       </table>
                         <ul>
                             <li><a class="enlUR" href="../Competiciones/Competicion.html"><h4>Info. Competicion</a></li>
@@ -124,15 +102,7 @@
                 <li>
                     <h3>Resultado4</h3>
                     <body>
-                      <table>
-                        <tr>
-                          <td>Posición</td>
-                          <td>Nombre</td>
-                        </tr>
-                        <tr>
-                          <td>Posición</td>
-                          <td>Nombre</td>
-                        </tr>
+                      <table id="tabla4" style="width:75%">
                       </table>
                         <ul>
                             <li><a class="enlUR" href="../Competiciones/Competicion.html"><h4>Info. Competicion</a></li>
@@ -142,6 +112,8 @@
                 </li>
             </ul>
         </section>
+        <script src="../JavaScript/cargarTablas.js"></script>
+        <script src="../JavaScript/cambiarFotosSubpaginas.js"></script>
     </body>
 <a class="masinfo" href="./UltimosResultados.html">Ver más resultados</a>
 <footer class="pie"><a href="../Contacto/Contacto.html ">Contacto</a></footer>
