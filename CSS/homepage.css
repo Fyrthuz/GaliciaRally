@@ -23,10 +23,12 @@ body{
 }
 
 .busqueda{
+    font-size: large;
     position:absolute;
     bottom:0;
     right:0;
 }
+
 
 .fotoinicial img {
     position: relative;
@@ -40,13 +42,7 @@ body{
 
 }
 
-.search{
-    flex-wrap: wrap;
-}
 
-.busqueda{
-    font-size: large;
-}
 
 .titulo {
     position: absolute;
