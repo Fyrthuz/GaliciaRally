@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RESULTADO>
+  <COMPETICION>Fórmula 1</COMPETICION>
+  <TRAMO>GP Italia</TRAMO>
+  <PILOTO>
+    <NOMBRE>Fernando Alonso</NOMBRE>
+    <S1>27.329</S1>
+    <S2>31.312</S2>
+    <S3>23.965</S3>
+    <NEUMATICO>BLANDO</NEUMATICO>
+  </PILOTO>
+  <PILOTO>
+    <NOMBRE>Michael Schumacher</NOMBRE>
+    <S1>27.329</S1>
+    <S2>31.312</S2>
+    <S3>29.965</S3>
+    <NEUMATICO>BLANDO</NEUMATICO>
+  </PILOTO>
+  <PILOTO>
+    <NOMBRE>Lewis Hamilton</NOMBRE>
+    <S1>26.991</S1>
+    <S2>31.123</S2>
+    <S3>24.001</S3>
+    <NEUMATICO>BLANDO</NEUMATICO>
+  </PILOTO>
+  <PILOTO>
+    <NOMBRE>Carlos Sainz</NOMBRE>
+    <S1>28.012</S1>
+    <S2>32.121</S2>
+    <S3>23.450</S3>
+    <NEUMATICO>DURO</NEUMATICO>
+  </PILOTO>
+  <PILOTO>
+    <NOMBRE>Marc Gené</NOMBRE>
+    <S1>27.062</S1>
+    <S2>32.092</S2>
+    <S3>24.673</S3>
+    <NEUMATICO>DURO</NEUMATICO>
+  </PILOTO>
+  <PILOTO>
+    <NOMBRE>Jenson Button</NOMBRE>
+    <S1>28.123</S1>
+    <S2>32.039</S2>
+    <S3>27.436</S3>
+    <NEUMATICO>BLANDO</NEUMATICO>
+  </PILOTO>
+  <PILOTO>
+    <NOMBRE>Nikita Mazepin</NOMBRE>
+    <S1>26.340</S1>
+    <S2>30.232</S2>
+    <S3>24.393</S3>
+    <NEUMATICO>BLANDO</NEUMATICO>
+  </PILOTO>
+  <PILOTO>
+    <NOMBRE>Nelson Piquet</NOMBRE>
+    <S1>27.340</S1>
+    <S2>31.932</S2>
+    <S3>25.937</S3>
+    <NEUMATICO>BLANDO</NEUMATICO>
+  </PILOTO>
+</RESULTADO>
