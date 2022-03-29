@@ -1,0 +1,38 @@
+{
+    "Nombre" : "Fernando",
+    "Apellidos" : "Alonso Díaz",
+    "Nacionalidad" : "Español",
+    "AnoNacimiento" : 1981,
+    "DiaNacimiento" : 29,
+    "MesNacimiento" : 7,
+    "Estatura" : "1,71m",
+    "Escuderia" : "Alpine",
+    "Info" : "Fernando Alonso Díaz (Oviedo, Asturias; 29 de julio de 1981) es un piloto español de automovilismo de velocidad. Ha ganado dos veces el Campeonato Mundial de Pilotos de Fórmula 1 en 2005 y 2006,3​ una vez el Campeonato Mundial de Resistencia de la FIA en 2019, las 24 Horas de Le Mans de 2018 y 2019 y las 24 Horas de Daytona de 2019. También resultó subcampeón de Fórmula 1 en 2010, 2012 y 2013, y obtuvo un tercer puesto en 2007. En Fórmula 1, ha competido para los equipos Minardi, Renault (en el que fue bicampeón del mundo), McLaren y Scuderia Ferrari, siendo esta su escudería desde 2010 hasta 2014. Se marchó de Ferrari y en 2015 volvió a McLaren. Tras dos años fuera de la F1, en la temporada de 2021 vuelve con Alpine F1 Team, parte de la familia Renault, con la que ganó sus 2 campeonatos.     Además de competir en estos equipos, Alonso ha pilotado en las 500 Millas de Indianápolis de 2017, 2019 y 2020 junto a McLaren, en las 24 Horas de Daytona de 2018 con un Ligier para United Autosports, en las 24 Horas de Daytona de 2019 con un Cadillac para Wayne Taylor Racing y en el Campeonato Mundial de Resistencia de la FIA 2018-19 y el Rally Dakar de 2020 para Toyota Gazoo Racing.  Alonso es el único piloto español y sexto piloto con mayor número de victorias en la historia de la Fórmula 1 con 32 grandes premios ganados y el sexto piloto con más podios: 98.4​5​ Entre sus triunfos se cuentan tres en el Gran Premio de Malasia, tres en el Gran Premio de Alemania, tres en el Gran Premio de Europa y tres en el Gran Premio de Baréin. En 2017, es incluido en el Salón de la Fama de la FIA.6​7​8​9​ En 2019 vuelve a entrar en el Salón de la Fama de la FIA, esta vez como campeón del WEC convirtiéndose en el primer piloto de la historia en ser miembro del Salón de la Fama por partida doble por pertenecer a la lista de campeones de dos categorías de la FIA diferentes.10​11​     Junto a Alfonso de Portago, Pedro de la Rosa y Carlos Sainz, Alonso es uno de los cuatro españoles que han alcanzado el podio en esta competición, siendo el único que ha logrado victorias. Es además, uno de los cuatro pilotos que han debutado en Ferrari con victoria en la primera carrera (junto con Mario Andretti, Nigel Mansell y Kimi Räikkönen).", 
+    "active" : true,
+    "Historico" : [
+      {
+        "Titulo" : "Campeon del mundo F1",
+        "año" : 2005
+      },
+      {
+        "Titulo" : "Campeon del mundo F1",
+        "año" : 2006
+      },
+      {
+        "Titulo" : "24 horas de Le Mans",
+        "año" : 2018
+      },
+      {
+        "Titulo" : "Campeon del mundo de resistencia de la FIA",
+        "año" : 2019
+      },
+      {
+        "Titulo" : "24 horas de Le Mans",
+        "año" : 2019
+      },
+      {
+        "Titulo" : "24 horas de Daytona",
+        "año" : 209
+      }
+    ]
+  }
