@@ -37,7 +37,6 @@ body{
     width:500px;
     height:250px;
     flex-wrap: wrap;
-
 }
 
 .search{
@@ -168,41 +167,42 @@ nav .navegador .opcion:hover .submenu{
     text-align: center;
     color: rgb(225, 0, 0);
 }
+.info a{
+    position: relative;
+    float: left;
+    width: 120px;
+    height: 120px;
+    margin-right: 4px;
+    margin-left: 4px;
+}
 
 .info a img{
   position: relative;
-  max-width: 40%;
-  max-height: 192px;
-  float: right;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  margin-left: 5px;
   border-radius: 50%;
+  width: inherit;
+  height: inherit;
+}
+
+.info iframe{
+    position: relative;
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
 }
 
 .info a:hover {
     text-decoration: underline;
 }
 
-.info .text{
-    margin-left: 15px;
-    text-overflow: ellipsis;
-    word-wrap: break-word;
-    overflow: hidden;
-    max-height: 13em;
-    line-height: 1.8em;
+.info .texto{
+    float:left;
     position: relative;
+    width: 300px;
+    height: 160px;
+
 }
 
-.info img{
-    position: relative;
-    max-width: 40%;
-    max-height: 192px;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 10px;
-    margin-left: 15px;
-}
+
 
 
 .pie{
@@ -242,4 +242,83 @@ nav .navegador .opcion:hover .submenu{
 
 nav ul li:hover .opciones{
     display: inline-table;
+}
+
+@media(max-width: 1000px){
+    .subcontenedor .info{
+        min-height: 400px;
+        width: 92vw;
+    }
+    .subcontenedor .info .texto{
+        width:inherit;
+    }
+    .subcontenedor .info .texto .p{
+        margin-left: 15px;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 13em;
+    line-height: 1.8em;
+    position: relative;
+    display: block;
+    }
+}
+@media(max-width: 680px){
+    .subcontenedor .info{
+        min-height: 550px;
+        width: 92vw;
+    }
+    .subcontenedor .info .texto{
+        width:inherit;
+    }
+    .subcontenedor .info .texto .p{
+        margin-left: 15px;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 13em;
+    line-height: 1.8em;
+    position: relative;
+    display: block;
+    }
+}
+
+@media(max-width: 410px){
+    .subcontenedor .info{
+        height: 710px;
+        width: 92vw;
+    }
+    .subcontenedor .info .texto{
+        width:inherit;
+    }
+    .subcontenedor .info .texto .p{
+        margin-left: 15px;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 13em;
+    line-height: 1.8em;
+    position: relative;
+    display: block;
+    }
+}
+
+@media(max-width: 279px){
+    .subcontenedor .info{
+        height: 910px;
+        width: 92vw;
+    }
+    .subcontenedor .info .texto{
+        width:inherit;
+    }
+    .subcontenedor .info .texto .p{
+        margin-left: 15px;
+    text-overflow: ellipsis;
+    word-wrap: break-word;
+    overflow: hidden;
+    max-height: 13em;
+    line-height: 1.8em;
+    position: relative;
+    display: block;
+    }
 }

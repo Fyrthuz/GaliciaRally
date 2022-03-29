@@ -147,7 +147,7 @@ nav .navegador .opcion:hover .submenu{
     display: inline-block;;
 }
 
-@media(min-width: 600px){
+@media(min-width: 850px){
     .subcontenedor{
         display: inline-block;
         column-count: 2;
