@@ -190,9 +190,7 @@ nav .navegador .opcion:hover .submenu{
     height: inherit;
 }
 
-.info a:hover {
-    text-decoration: underline;
-}
+
 
 .info .texto{
     float:left;
